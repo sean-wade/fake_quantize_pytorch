@@ -1,27 +1,27 @@
 ### 文档结构
 .
-├── README.md                                       # 本说明文档
-├── compare                                         # original U-Yolov3
-├── data                                            # original U-Yolov3
-├── detect.py                                       # original U-Yolov3
-├── models                                          # original U-Yolov3
-├── qqquantize                                      # 量化代码, 详情见内部README.md
-├── quantize_export_onnx.py                         # 导出量化模型的onnx
-├── quantize_export_onnx_txt_compare_ckpt_PCPT.py   # 导出量化模型的pt/onnx/txt/npy去比对, txt格式是V2, 多了load checkpoint的步骤 
-├── quantize_export_onnx_txt_compare_v3tiny_V1.py   # 导出量化模型的pt/onnx/txt/npy去比对, txt格式是V1：如: conv:[1.0, 2.0]
-├── quantize_export_onnx_txt_compare_v3tiny_V2.py   # 导出量化模型的pt/onnx/txt/npy去比对, txt格式是V2：如: conv_pc:[1.0, 2.0]
-├── quantize_random_create                          # 生成随机通道模型的工程, 详情见内部README.md
-├── quantize_test.py                                # 量化模型测试map的代码, 应该没什么用，仅做保留
-├── quantize_train.py                               # 量化训练的代码
-├── quantize_utils.py                               # qconfig、导出、加载等一些函数工具
-├── requirements.txt                                # original U-Yolov3
-├── runs                                            # original U-Yolov3, 训练结果保存的目录
-├── start_quantize_train.sh                         # 启动量化训练脚本
-├── test.py                                         # original U-Yolov3, 和官方不同的地方是 img/255.0 改了
-├── train.py                                        # original U-Yolov3, 和官方不同的地方是 img/255.0 改了
-├── utils                                           # original U-Yolov3
-└── weights                                         # original U-Yolov3
-
+├── README.md                                       # 本说明文档                             
+├── compare                                         # original U-Yolov3                             
+├── data                                            # original U-Yolov3                             
+├── detect.py                                       # original U-Yolov3                             
+├── models                                          # original U-Yolov3                             
+├── qqquantize                                      # 量化代码, 详情见内部README.md                             
+├── quantize_export_onnx.py                         # 导出量化模型的onnx                             
+├── quantize_export_onnx_txt_compare_ckpt_PCPT.py   # 导出量化模型的pt/onnx/txt/npy去比对, txt格式是V2, 多了load checkpoint的步骤                              
+├── quantize_export_onnx_txt_compare_v3tiny_V1.py   # 导出量化模型的pt/onnx/txt/npy去比对, txt格式是V1：如: conv:[1.0, 2.0]                             
+├── quantize_export_onnx_txt_compare_v3tiny_V2.py   # 导出量化模型的pt/onnx/txt/npy去比对, txt格式是V2：如: conv_pc:[1.0, 2.0]                             
+├── quantize_random_create                          # 生成随机通道模型的工程, 详情见内部README.md                             
+├── quantize_test.py                                # 量化模型测试map的代码, 应该没什么用，仅做保留                             
+├── quantize_train.py                               # 量化训练的代码                             
+├── quantize_utils.py                               # qconfig、导出、加载等一些函数工具                             
+├── requirements.txt                                # original U-Yolov3                             
+├── runs                                            # original U-Yolov3, 训练结果保存的目录                             
+├── start_quantize_train.sh                         # 启动量化训练脚本                             
+├── test.py                                         # original U-Yolov3, 和官方不同的地方是 img/255.0 改了                             
+├── train.py                                        # original U-Yolov3, 和官方不同的地方是 img/255.0 改了                             
+├── utils                                           # original U-Yolov3                             
+└── weights                                         # original U-Yolov3                             
+                             
 
 ### 使用
 
